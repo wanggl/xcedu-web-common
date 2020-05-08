@@ -1,0 +1,43 @@
+.app-user {
+  .none-signe-page {
+    box-sizing: border-box;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+
+    &-card {
+      position: absolute;
+      right: 14%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 350px;
+    }
+
+    &-header-icon {
+      height: 48px;
+      margin-bottom: 40px;
+    }
+
+    .el-form-item {
+      margin-bottom: 25px;
+    }
+
+    .el-input__inner {
+      height: 50px;
+      line-height: 50px;
+    }
+
+    .copright {
+      bottom: 30px;
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  .el-button-long {
+    display: block;
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+  }
+}

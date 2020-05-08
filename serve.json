@@ -1,0 +1,11 @@
+{
+  "public": "dist",
+  "directoryListing": false,
+  "headers": [{
+    "source": "**/*.@(css|js|png|jpg|ttf|woff|svg|gif|ico)",
+    "headers": [{
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    }]
+  }]
+}

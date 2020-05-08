@@ -1,0 +1,4 @@
+@mixin font($size: 12px, $color: $--color-text-secondary) {
+  color: $color;
+  font-size: $size;
+}

@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $--color-text-primary;
+  text-decoration: none;
+
+  &:hover {
+    color: $--color-primary;
+  }
+
+  &:focus {
+    outline-color: $--color-primary;
+  }
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  vertical-align: top;
+}
