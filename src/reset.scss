@@ -5,6 +5,11 @@ body {
   padding: 0;
 }
 
+body{
+  background: #f8f8f8;
+  overflow: hidden;
+}
+
 a {
   color: $--color-text-primary;
   text-decoration: none;
