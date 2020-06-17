@@ -5,6 +5,11 @@ body {
   padding: 0;
 }
 
+body{
+  background: #f8f8f8;
+  overflow: hidden;
+}
+
 a {
   color: $--color-text-primary;
   text-decoration: none;
@@ -22,4 +27,8 @@ img {
   max-height: 100%;
   max-width: 100%;
   vertical-align: top;
+}
+
+i,em {
+  font-style: normal;
 }

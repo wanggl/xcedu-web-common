@@ -132,7 +132,8 @@ function xceduTheme (theme) {
       './src/icon.scss',
       './src/common.scss',
       './src/pages/navbar.scss',
-      './src/pages/user.scss'
+      './src/pages/user.scss',
+      './src/pages/email.scss'
     ])
       .pipe(concat(`common-${theme}.scss`))
       .pipe(sass({ outputStyle: 'compressed' }))
