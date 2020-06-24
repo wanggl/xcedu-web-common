@@ -49,8 +49,9 @@
 
     &-action {
       float: right;
-      margin-top: 15px;
-
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
       &-search {
         display: inline-block;
         vertical-align: top;
@@ -63,9 +64,12 @@
       }
 
       .el-avatar {
-        background-color: transparent;
+        background-color:transparent;
         color: $--color-primary;
-
+        &.user-name {
+          background: $--color-primary;
+          color: #fff;
+        }
         &:hover,
         &.focusing {
           background-color: $--color-primary;

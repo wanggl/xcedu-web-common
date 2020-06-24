@@ -287,9 +287,21 @@ section {
   }
 }
 
+.app-content--windowopen--standalone{
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 100px);
+  overflow-y: auto;
+  top: 100px;
+  bottom: 0;
+}
+
 .el-dialog__header {
   padding      : 10px 20px;
-  border-bottom: 1px solid $--color-primary
+  border-bottom: 1px solid $--color-primary;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
 }
 
 .el-table__body .oprate-icon-groups i:hover {
@@ -299,8 +311,14 @@ section {
 .el-dialog__footer {
   padding: 0;
   position: absolute;
-  top     : 12px;
+  top     : 8px;
   right   : 60px;
+}
+.el-dialog__headerbtn{
+  top: 15px;
+}
+.el-dialog__title{
+  line-height: 32px;
 }
 
 .el-dialog__wrapper {

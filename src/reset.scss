@@ -10,6 +10,10 @@ body{
   overflow: hidden;
 }
 
+* {
+  font-size: 14px;
+}
+
 a {
   color: $--color-text-primary;
   text-decoration: none;
