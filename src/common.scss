@@ -308,7 +308,7 @@ section {
     background-color: rgba(0, 0, 0, .2);
   }
 }
-
+ 
 .app-content--windowopen--standalone{
   position: absolute;
   width: 100%;
@@ -322,8 +322,13 @@ section {
   padding      : 10px 20px;
   border-bottom: 1px solid $--color-primary;
   height: 50px;
+<<<<<<< HEAD
   line-height: 32px;
   box-sizing: border-box;
+=======
+  line-height: 50px;
+  box-sizing: border-box; 
+>>>>>>> 0e94c0385fca5f80407ab0f392d10b310cc499ba
 }
 
 .el-table__body .oprate-icon-groups i:hover {
@@ -332,7 +337,7 @@ section {
 
 .el-dialog__footer {
   padding: 0;
-  position: absolute;
+  position: absolute; 
   top     : 8px;
   right   : 60px;
 }
@@ -341,7 +346,7 @@ section {
 }
 .el-dialog__title{
   line-height: 32px;
-}
+} 
 
 .el-dialog__wrapper {
   display    : flex;
