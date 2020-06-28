@@ -35,6 +35,10 @@
   color: #3396fc
 }
 
+.text-color-grey {
+  color: #999;
+}
+
 .padding-top-size-mini {
   padding-top: 5px
 }
@@ -255,6 +259,24 @@
   font-size: 16px
 }
 
+.size-large-x {
+  font-size: 18px;
+}
+
+.size-large-xx {
+  font-size: 20px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.size-nomal-dialog {
+  .el-dialog__body{
+    height: 590px;
+    overflow: auto;
+  }
+}
 div,
 ul,
 section {
@@ -300,7 +322,7 @@ section {
   padding      : 10px 20px;
   border-bottom: 1px solid $--color-primary;
   height: 50px;
-  line-height: 50px;
+  line-height: 32px;
   box-sizing: border-box;
 }
 
