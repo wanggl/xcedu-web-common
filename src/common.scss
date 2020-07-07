@@ -397,20 +397,12 @@ section {
 
 .el-dialog__header {
   padding      : 10px 20px;
-  border-bottom: 1px solid $--color-primary;
-<<<<<<< HEAD
+  border-bottom: 1px solid $--color-primary; 
   height: 50px;
   line-height: 32px;
   box-sizing: border-box;
   line-height: 50px;
-  box-sizing: border-box;
-=======
-  height: 50px; 
-  line-height: 32px;
   box-sizing: border-box; 
-  line-height: 50px;
-  box-sizing: border-box;  
->>>>>>> 9539bc75a7c9b7063977aa7a3722649c129ac90c
 }
 
 .el-table__body .oprate-icon-groups i:hover {
