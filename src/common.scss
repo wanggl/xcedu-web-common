@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.fl {
+  float: left;
+}
+
 .fr {
   float: right;
 }
@@ -39,11 +43,25 @@
   color: #999;
 }
 
+.bg-grey {
+  background-color: #f8f8f8;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
 .padding-top-size-mini {
   padding-top: 5px
 }
 
-.padding-left-size-mix {
+.padding-top-size-mix {
   padding-top: 10px
 }
 
@@ -119,11 +137,66 @@
   padding-bottom: 30px
 }
 
+.padding-left-right-size-mini {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.padding-left-right-size-mix {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.padding-left-right-size-small {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.padding-left-right-size-nomal {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.padding-left-right-size-large {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.padding-top-bottom-size-mini {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.padding-top-bottom-size-mix {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.padding-top-bottom-size-small {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.padding-top-bottom-size-nomal {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.padding-top-bottom-size-large {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.margin-lr-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .margin-top-size-mini {
   margin-top: 5px
 }
 
-.margin-left-size-mix {
+.margin-top-size-mix {
   margin-top: 10px
 }
 
@@ -267,12 +340,16 @@
   font-size: 20px;
 }
 
-.pointer{
+.bold {
+  font-weight: bold;
+}
+
+.pointer {
   cursor: pointer;
 }
 
 .size-nomal-dialog {
-  .el-dialog__body{
+  .el-dialog__body {
     height: 590px;
     overflow: auto;
   }
@@ -309,7 +386,7 @@ section {
   }
 }
 
-.app-content--windowopen--standalone{
+.app-content--windowopen--standalone {
   position: absolute;
   width: 100%;
   height: calc(100% - 100px);
@@ -323,6 +400,8 @@ section {
   border-bottom: 1px solid $--color-primary;
   height: 50px;
   line-height: 32px;
+  box-sizing: border-box;
+  line-height: 50px;
   box-sizing: border-box;
 }
 
