@@ -9,11 +9,11 @@ body{
   background: #f8f8f8;
   overflow: hidden;
 }
- 
+
 * {
   font-size: 14px;
 }
- 
+
 a {
   color: $--color-text-primary;
   text-decoration: none;
@@ -35,4 +35,18 @@ img {
 
 i,em {
   font-style: normal;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li:not(.active) {
+  background-color: transparent !important;
+}
+
+.el-input-group__append button.el-button.el-button--primary {
+  color: $--color-white;
+  background-color: $--color-primary;
+  border-color: $--color-primary;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
