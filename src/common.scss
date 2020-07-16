@@ -357,6 +357,13 @@
 }
 
 
+.theme-append {
+  .el-input-group__append {
+    background-color: $--color-primary;
+    color: #fff;
+    border-color: $--color-primary;
+  }
+}
 
 .size-nomal-dialog {
   .el-dialog__body {
