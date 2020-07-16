@@ -28,23 +28,10 @@
     margin-top: 60px;
     overflow: auto;
   }
-  &-header-input{
-    display: flex;
-    width: 40%;
-    >button{
-      margin-left: 15px;
-    }
-  }
   .el-dialog{
     .el-row{
       .el-select{
         width: 100%;
-      }
-      .fileUpInput{
-        width: calc(100% - 70px)
-      }
-      .upload-demo{
-        display: inline;
       }
       .progress{
         background: #ededed;
