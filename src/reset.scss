@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+body > div[id*="single-spa-application"] {
+  height: 100%;
+}
+
 body{
   background: #f8f8f8;
   overflow: hidden;
