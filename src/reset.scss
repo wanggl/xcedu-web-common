@@ -1,22 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
+}
+
+body {
   margin: 0;
   padding: 0;
-}
-
-body > div[id*="single-spa-application"] {
-  height: 100%;
-}
-
-body{
+  font-size: 14px;
   background: #f8f8f8;
   overflow: hidden;
 }
 
-* {
-  font-size: 14px;
-  box-sizing: border-box;
+body > div[id*="single-spa-application"] {
+  height: 100%;
 }
 
 a {
