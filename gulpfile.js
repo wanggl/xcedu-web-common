@@ -8,6 +8,7 @@ const sass = require('gulp-sass')
 const babel = require('gulp-babel')
 const wrap = require('gulp-exports')
 const replace = require('gulp-replace')
+const rev = require('gulp-rev');
 const args = require('yargs').argv
 
 sass.compiler = require('node-sass')
@@ -159,6 +160,7 @@ function xceduTheme (theme) {
     ])
       .pipe(concat(`common-${theme}.scss`))
       .pipe(sass({ outputStyle: 'compressed' }))
+      .pipe(rev())
       .pipe(dest('dist/widget'))
       .pipe(gizp({ level: 7 }))
       //  当前 css 较小， 所以去掉 threshold 统一打包出来的文件名称
