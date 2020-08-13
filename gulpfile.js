@@ -68,7 +68,8 @@ function vendorSpa () {
   return src([
     './node_modules/single-spa/lib/umd/single-spa.min.js',
     './node_modules/single-spa-vue/lib/single-spa-vue.js',
-    './node_modules/import-map-overrides/dist/import-map-overrides.js',
+    // './node_modules/import-map-overrides/dist/import-map-overrides.js',
+    './workaround/import-map-overrides.js', // IE保护模式下localStorage报错问题
     './node_modules/systemjs/dist/system.min.js',
     './node_modules/systemjs/dist/extras/amd.min.js',
     './node_modules/systemjs/dist/extras/named-exports.min.js'
