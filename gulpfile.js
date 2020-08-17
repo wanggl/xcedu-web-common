@@ -160,7 +160,6 @@ function xceduTheme (theme) {
     ])
       .pipe(concat(`common-${theme}.scss`))
       .pipe(sass({ outputStyle: 'compressed' }))
-      .pipe(rev())
       .pipe(dest('dist/widget'))
       .pipe(gizp({ level: 7 }))
       //  当前 css 较小， 所以去掉 threshold 统一打包出来的文件名称

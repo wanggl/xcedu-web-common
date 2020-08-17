@@ -1,11 +1,10 @@
 .app-email {
   position: absolute;
   width   : 100%;
-  top     : 20px;
   padding : 0 50px;
   bottom  : 0;
   overflow: auto;
-
+  top: 0;
   .el-autocomplete {
     display: block;
   }
@@ -36,7 +35,7 @@
       }
 
       label {
-        color: #ccc;
+        color: $--color-text-light;
       }
     }
 

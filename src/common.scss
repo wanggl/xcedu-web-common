@@ -40,7 +40,7 @@
 }
 
 .text-color-grey {
-  color: #999;
+  color: $--color-text-light;
 }
 
 .bg-grey {
@@ -321,23 +321,23 @@
 }
 
 .size-small {
-  font-size: 12px
+  font-size: $--font-size-extra-small;
 }
 
 .size-normal {
-  font-size: 14px
+  font-size: $--font-size-base;
 }
 
 .size-large {
-  font-size: 16px
+  font-size: $--font-size-medium;
 }
 
 .size-large-x {
-  font-size: 18px;
+  font-size: $--font-size-large;
 }
 
 .size-large-xx {
-  font-size: 20px;
+  font-size: $--font-size-extra-large;
 }
 
 .bold {
