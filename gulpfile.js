@@ -8,6 +8,7 @@ const sass = require('gulp-sass')
 const babel = require('gulp-babel')
 const wrap = require('gulp-exports')
 const replace = require('gulp-replace')
+const rev = require('gulp-rev');
 const args = require('yargs').argv
 
 sass.compiler = require('node-sass')
