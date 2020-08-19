@@ -53,7 +53,8 @@ function vendorPolyfill () {
 }
 function vendorXcBase () {
   return src([
-    './xcbase/*.js'
+    './xcbase/xcedu-share.js',
+    './xcbase/xcedu-components.js'
   ]).pipe(concat('xcbase.js'))
     .pipe(replace(/\/\/# sourceMappingURL=(.+)\.map/g, '/* remove source map */'))
     .pipe(dest('dist/xcbase'))
